@@ -1,0 +1,4 @@
+'''Converting Feet and inches to mm'''
+
+feet,inches=int(input("Enter Feet: ")),int(input("Enter Inches: "))
+print(str((feet*304.8)+(inches*25.4))+"mm")
